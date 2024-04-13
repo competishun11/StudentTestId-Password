@@ -30,7 +30,7 @@ document
           var idCell = sheet[XLSX.utils.encode_cell({ r: rowNum, c: 2 })]; // Username
           var passwordCell = sheet[XLSX.utils.encode_cell({ r: rowNum, c: 3 })]; // Password
           var modalContent =
-            'ID: ' + idCell.v + '<br>Password: ' + passwordCell.v;
+            'User Name: ' + idCell.v + '<br>Password: ' + passwordCell.v;
           password = passwordCell.v;
           showModal(modalContent);
           found = true;

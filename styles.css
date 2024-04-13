@@ -100,6 +100,11 @@ button:hover {
   width: 80%;
 }
 
+#modalWarning{
+  color: red;
+  /* text-align: center; */
+
+}
 .close {
   color: #aaa;
   float: right;
