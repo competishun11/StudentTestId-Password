@@ -40,7 +40,7 @@ document
     // If mobile number not found
   
       showModal(
-        'Mobile number not found. Please contact the support team.'
+        'Please Check your Registered Number. Please contact the support team at 7410833331, 7410833330'
       );
     
     };
