@@ -75,12 +75,13 @@ function showModal(content) {
 }
 
 function copyToClipboard() {
-  navigator.clipboard.writeText(password).then(
-    function () {
-      alert('Password copied to clipboard!');
-    },
-    function () {
-      alert('Failed to copy password to clipboard!');
-    }
-  );
+  var modalContent = document.getElementById('modalContent').innerText;
+    navigator.clipboard.writeText(modalContent).then(
+      function () {
+        // alert('Copied to clipboard!');
+      },
+      function () {
+        alert('Failed to copy to clipboard!');
+      }
+    );
 }
